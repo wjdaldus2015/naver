@@ -1,0 +1,50 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+/* #header .group-nav .ico-blog::after,
+#header .group-nav .ico-shoping::after,
+#header .group-nav .ico-news::after,
+#header .group-nav .ico-stock::after,
+#header .group-nav .ico-home::after,
+#header .group-nav .ico-map::after,
+#header .group-nav .ico-toon::after,
+#header .group-nav .ico-radio::after, */
+.sc-weather .group-header .link-area .link-info::before,
+.sc-widgetboard .link-naver .bold::before,
+.group-vibe .vibe-info .ico-vibe-play::after,
+.group-vibe .vibe-info .ico-vibe-play::before,
+.group-vibe .vibe-btn-refresh::after,
+.group-vibe .vibe-title::before,
+.sc-stock .type-area .stock-price::before,
+.sc-widgetboard .tool-content .dict-area .ico-search::after,
+.notice-area .wrap-right::after,
+.sc-widgetboard .tool-content .papago-area .ico-papago-logo,
+.sc-widgetboard .tool-content .papago-area .ico-papago-title,
+.sc-stock .type-area .type-more::before,
+.sc-stock .content .info-area .stock-gap::before,
+.sc-stock .group-header .header-title::after,
+.sc-stock .group-header .time-area .time-now::after,
+.sc-market .group-control .control-area .btn-prev::before,
+.sc-market .group-control .control-area .btn-next::before,
+.sc-login .link-login::before,
+.sc-news .group-control .control-area .btn-next::before,
+.sc-news .group-control .control-area .btn-prev::before,
+.sc-news .group-control .set-area .btn-list::before,
+.sc-news .group-control .set-area .btn-thumb::before,
+.sc-news .group-issue .btn-all::after,
+#header .group-nav [class*="ico-"]::before,
+#header .group-nav [class*="ico-"]::after,
+#header .group-search .btn-auto::before,
+#header .group-search .btn-keyboard::before,
+#header .util-area > *::before{
+    background-image: url(../img/spp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 444px;
+}
+
